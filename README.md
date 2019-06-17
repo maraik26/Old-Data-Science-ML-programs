@@ -2,21 +2,20 @@
 Data science/ML written on PySpark and Python
 wordcount-improved.py and reddit-averages.py
 
-These 2 files are doing the same works like WordCountImproved.java, RedditAverages.java in my Hadoop-MapReduce folder, but instead of using java MapReduce, it's using Spark core python to do MapReduce works
+These 2 using Spark core python to do MapReduce works
 
 
 correlate-logs.py
-This file does the same work as CorrelateLogs.java I wrote in HBase-MapReduce-in-Java folder, but instead of using java MapReduce, I am using Spark core python.
+using Spark core python.
 
 
 correlate-logs-better.py
-This file does the same work as correlate-logs.py but it is using a better formula which is mroe numerical stable https://courses.cs.sfu.ca/2015fa-cmpt-732-g1/pages/Assignment3B
+This file does the same work as correlate-logs.py but it is using a better formula 
 
 
 itemsets.py
 
 This file is using Spark MlLib FP-Growth (a Frequent Pattern Mining algorithm) to find the top 10,000 item sets.
-The transaction data input is from here: http://fimi.ua.ac.be/data/T10I4D100K.dat
 
 
 relative-score.py
@@ -32,13 +31,11 @@ To calculate the relative score, we map over the comments: write a function that
 
 
  reddit_average_sql.py
- 
- This file does the same work like RedditAverage.java in my Hadoop-MapReduce folder but instead of using java, it is using Spark SQL.
+ using Spark SQL.
  
  
  load_logs_sql.py
- 
- This file does the same work as LoadLogs.java in my Hadoop-MapReduce folder but instead of using java, it is using Spark SQL.
+ using Spark SQL.
  
  temp_range.py, temp_range_sql.py
  
@@ -125,8 +122,7 @@ The dataset is from here: https://github.com/sidooms/MovieTweetings
 
 
 euler.py
-
-This file does the same work as what I did in Hadoop-MapReduce folder, EvaluateEuler.java, but instead of using java MapReduce, it is using python sql.
+using python sql.
 
 *********************************************************************************
 Spark MLlib and Spark ML
